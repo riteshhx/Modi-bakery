@@ -1,0 +1,160 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.top{
+    width: 100%;
+    height: 70px;
+}
+.call{
+    border: 0.5px solid white;
+    width: 180px;
+    height:40px;
+    align-content: center;
+}
+.p-call{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: yellow;
+    text-decoration: underline;
+}
+.nav-link{
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-link:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/hero-cake.jpg);
+    background-size: cover;
+    background-position: center;  
+    background-color: transparent;
+}
+.hero-text{
+    background-color: transparent;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+.btn-primary{
+    margin-left: 30px;
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: black;
+    color: yellow;
+
+}
+.text-2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: silver;
+    text-decoration: wavy;
+    font-weight: lighter;
+}
+.minicake{
+    height: 65vh;
+    width: 55vh;
+    background-size: cover;
+}
+.minicakediv{
+    display: flex;
+    justify-content: center;
+    
+}
+.sec-2{
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.text-3{
+    color: yellow;
+}
+.para-1{
+    margin-top: 30px;
+}
+.para-2{
+    margin-top: 30px;
+}
+
+ 
+
+/* Styling for Carousel
+.carousel {
+    margin-top: 50px;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-body {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.btn-primary {
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    color: yellow;
+}
+
+ Carousel Navigation 
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+} */
+
+.carousel-inner{
+    display: flex;
+    
+}
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    margin-top: 50px;
+    gap: 20px;
+}
